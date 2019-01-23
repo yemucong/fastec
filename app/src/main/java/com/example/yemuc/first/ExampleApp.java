@@ -1,8 +1,6 @@
 package com.example.yemuc.first;
 
-import android.app.Activity;
 import android.app.Application;
-import android.os.Bundle;
 
 import com.example.core.app.Latte;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;

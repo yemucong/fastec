@@ -11,6 +11,10 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import me.yokeyword.fragmentation_swipeback.SwipeBackFragment;
 
+//将BaseFragment改为抽象类，在具体业务中定义具体的页面Fragment时就继承这个类，实现它的抽象方法，传入布局，绑定视图。
+//要通过setLayout传入一个布局。将setLayout传入的布局绑定成rootView返回
+//再将返回的rootView显示在ProxyActivity的fragmentLayout里
+
 public abstract class BaseDelegate extends SwipeBackFragment {
     private Unbinder mUnbinder = null;
 
